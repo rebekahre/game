@@ -2,8 +2,9 @@
 public class Client {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		//new window
+		Window window = new Window(800, 500, "Game");
+		UpdateHandler uh = new UpdateHandler(60, window);
 	}
-
 }
